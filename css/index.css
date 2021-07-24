@@ -1,0 +1,151 @@
+.sidenav{
+  width:20%;
+  height:100vh;
+  position:fixed;
+  left:0px;
+  background-color:grey,0.01;
+  background-image: url("../images/glass.png");
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rightpanel{
+  margin:-15px;
+  margin-top:-18px;
+  margin-right:-15px;
+  margin-bottom:0px;
+  overflow:hidden;
+
+}
+
+.navmenu span{
+
+  }
+
+.mainbody{
+  padding:20px;
+  position: relative;
+  background-color:white;
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  width:100%
+}
+
+.headertext{
+
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+
+.card-img-top{
+  height:250px;
+  width:100%;
+  overflow: hidden;
+  object-fit:cover;
+}
+
+.card-img-top-lrg{
+  height:400px;
+  width:100%;
+  overflow: hidden;
+  object-fit:cover;
+}
+.card .btn{
+  position:absolute;
+  bottom:0px;
+}
+.sidenav a{
+  font-size:16pt;
+  text-align:left;
+  padding:10px;
+  font-weight: bold;
+}
+
+.sectionfooter{
+  padding:10px;
+}
+.topback{
+
+}
+
+
+.gsjumboBackground{
+  background-image: url("../images/droneback.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height:70vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+color:black;
+font-weight: bold;
+
+}
+.gfpjumboBackground{
+  background-image: url("../images/guidesforpractice.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height:70vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+color:black;
+font-weight: bold;
+
+}
+
+.homejumboBackground{
+  background-image: url("../images/dronerace.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:70vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-weight: bold;
+
+}
+
+.ohjumboBackground{
+  background-image: url("../images/otherhobbieshead.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:70vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-weight: bold;
+
+}
+
+.logo{
+  position:fixed;
+  width:20%;
+z-index:0 !important;
+  top:0px;
+  max-width:500px;
+}
+
+.jumboCopy{
+  padding:50px;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.videotext{
+font-size: 17pt;
+}
