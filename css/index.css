@@ -23,6 +23,11 @@
 
 }
 
+.nav-item a{
+  text-decoration-color: none;
+  color: white;
+}
+
 .navmenu span{
 
   }
